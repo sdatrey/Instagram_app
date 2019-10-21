@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_app/posts.dart';
 import 'package:instagram_app/stories.dart';
 
 
@@ -27,6 +28,7 @@ class _MyAppState extends State<MyApp> {
         children: <Widget>[
           Fp(),
           Sp(),
+
         ],
       ),
     );
@@ -64,10 +66,11 @@ class Fp extends StatelessWidget {
     // TODO: implement build
     return Scaffold(
       appBar: topbar,
-      body: Container(
-        child:
+      body: Stack(
+        children: <Widget>[
+          Stories(),
+           ],
 
-           Stories(),
       ),
       bottomNavigationBar: Container(
         color: Colors.white,

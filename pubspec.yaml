@@ -37,6 +37,7 @@ flutter:
   assets:
       - asset/image/1522452762Instagram-logo-png-text.png
       - asset/image/IMG_20170228_205809_570.jpg
+      - asset/image/DSC00768.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
